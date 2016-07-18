@@ -6,6 +6,7 @@ class Solution(object):
         """
         while n>=10:
             n = self.addDigit(n)
+		# mod 7 ==0
         return n==1 or n==7
     
     def addDigit(self,n):
